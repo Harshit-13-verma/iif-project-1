@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 10px 0 10px;
+    background-color: black;
+}
+
+#side-logo {
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu>* {
+    padding: 5px 10px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.login {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 8px 25px;
+    cursor: pointer;
+}
+
+footer {
+    position: fixed ;
+    bottom: 0;
+    padding: 10px 0;
+    background-color: rgb(37, 37, 37);
+    width: 100vw;
+    color: #fff;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+footer span{
+    margin-left: 20px;
+}
+
+footer div a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 25px;
+}

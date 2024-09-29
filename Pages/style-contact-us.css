@@ -1,0 +1,54 @@
+#grid-container-about-us{
+    height: 85vh;
+    display: grid;
+    grid-template: 1fr 2fr /repeat(3 , 1fr);
+    gap: 20px;
+}
+#grid-container-about-us>*{
+    border-radius: 15px;
+    padding: 15px;
+}
+#contact-info{
+    grid-column: span 1;
+    grid-row: span 2;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 24px;
+    padding-left: 30px;
+}
+#name-tag{
+    grid-column: span 2;
+    background-color: white;
+    color: rgb(0, 0, 80);
+    font-size: 60px;
+    text-align: center;
+}
+#contact-info>p{
+    margin: 10px;
+}
+.input-text{
+    height: 30px;
+    width: 80%;
+    border-radius: 5px;
+}
+#submit-button{
+    margin-top: 25px;
+   font-size: 24px;
+   width: 80%;
+   height: 40px;
+   background-color: rgb(0, 0, 85);
+   color: white;
+   border: none;
+   border-radius: 20px;
+   cursor: pointer;
+}
+#location iframe{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+
+}
+#image-show > *{
+    height: 100%;
+    width: 100%;
+}

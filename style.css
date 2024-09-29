@@ -1,0 +1,92 @@
+.main-grid-container{
+    display: grid;
+    height: 100vh;
+    grid-template: 1fr 1fr / repeat(8,8fr);
+    gap: 15px;
+    padding: 10px;
+}
+.main-grid-container>*{
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+}
+#about-box{
+    padding: 15px;
+    grid-column: span 3;
+    background-color: #EEEEEE;
+    font-size: 60px;
+    text-align: center;
+}
+#registration-button{
+    background-color: #fd6f02;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+}
+.bold{
+    font-weight: 800;
+    font-size: 70px;
+}
+#startup-image{
+    float: right;
+    height: 120px;
+    width: 120px;
+    border: none;
+    border-radius: 15px;
+    transform: rotate(-15deg);
+}
+#image1{
+    grid-column: span 2;
+    background-color: #fd6f02;
+    display: flex;
+    align-items: center;
+}
+#image1>*{
+    width: 100%;
+}
+#image2{
+    grid-column: span 3;
+    background-color: #8c94a1;
+    display: flex;
+    align-items: center;
+}
+#image2>*{
+    width: 100%;
+}
+#startup-showdown{
+    grid-column: span 2;
+    background-color: #8c94a1;
+    font-size: 60px;
+    font-weight: 700px;
+    text-align: center;
+    color: white;
+}
+#speaker-session{
+    grid-column: span 2;
+    background-color: #272727;
+    font-size: 60px;
+    font-weight: 700px;
+    text-align: center;
+    color: white;
+}
+#hackathon{
+    grid-column: span 2;
+    background-color: #EEEEEE;
+    font-size: 60px;
+    font-weight: 700px;
+    text-align: center;
+    color: #272727;
+}
+#gallary-box{
+    grid-column: span 2;
+    background-color: #bababa;
+    text-align: center;
+}
+#gallary-box *{
+    text-decoration: none;
+    color: white;
+    font-size: 60px;
+}
